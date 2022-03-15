@@ -1,0 +1,10 @@
+﻿@model WebApp.Models.Kitap
+
+@{
+}
+
+<form asp-action="Ekle" asp-controller="Kitap" method="post">
+    <input type="text" asp-for="KitapAd" />
+    <input type="text" asp-for="Fiyat" />
+    <input type="submit" value="Kaydet" />
+</form>

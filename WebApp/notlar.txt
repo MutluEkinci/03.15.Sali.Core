@@ -1,0 +1,14 @@
+﻿.Net FrameWork CORE arasındaki farklar 
+
+*CORE'da global.asax yok...
+*Core'da appsettings json formatında eskiden xml formatındaydı
+*Core'da web sitesi exe dosyası olarak oluşturulur ve çalıştırılır.
+*Core ile birlikte Tag helpers yapısı gelmiştir.
+*Core'da program startup cs dosyaları gelmiştir.
+	V6'da sadeleştirilmiştir.Sadece program.cs vardır.
+*Core async kullanımını destekler(IActionResult)
+*Core'da statik dosyalar wwwroot kalsöründe saklanır.
+*Core'da Referans dosyaları daha az yer kaplar.
+*Core .NET FrameWork'e göre yaklaşık 4 kat daha hızlıdır.
+*Core'da dahili loglama imkanı gelmiştir.
+

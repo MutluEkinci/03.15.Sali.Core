@@ -1,0 +1,20 @@
+﻿@model IEnumerable<WebApp.Models.Kitap>
+@{
+}
+<a asp-action="Ekle" asp-controller="Kitap">Kitap Ekle</a>
+
+<select asp-items="ViewBag.Ad"></select>
+<br />
+<h2>Kitap Listesi</h2>
+
+<table>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.KitapID</td>
+            <td>@item.KitapAd</td>
+            <td>@item.Fiyat</td>
+        </tr>
+    }
+
+</table>
